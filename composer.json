@@ -1,5 +1,6 @@
 {
     "name": "s00d/permissions",
+    "version": "master",
     "description": "Laravel 5 package for handling user roles and permissions.",
     "keywords": ["laravel", "permissions", "auth", "roles"],
     "license": "MIT",
