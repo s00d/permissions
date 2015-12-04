@@ -6,7 +6,7 @@
     "authors": [
         {
             "name": "Terry Harvey",
-            "email": "mcstormify@gmail.com"
+            "email": "Virus191288@gmail.com"
         }
     ],
     "require": {
@@ -18,7 +18,7 @@
             "src/migrations"
         ],
         "psr-0": {
-            "Mrterryh\\Permissions\\": "src/"
+            "s00d\\Permissions\\": "src/"
         }
     },
     "minimum-stability": "stable"
