@@ -17,7 +17,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "s00d\\permissions\\": "packages/s00d/permissions/src/",
+            "s00d\\permissions\\": "packages/s00d/permissions/src/"
         }
     }
 }
