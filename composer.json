@@ -1,6 +1,6 @@
 {
     "name": "s00d/permissions",
-    "minimum-stability": "master",
+    "minimum-stability": "dev",
     "description": "Laravel 5 package for handling user roles and permissions.",
     "keywords": ["laravel", "permissions", "auth", "roles"],
     "license": "MIT",
@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "php": ">=5.5.9",
+        "php": ">=5.5.9"
     },
     "autoload": {
         "psr-4": {
