@@ -5,21 +5,17 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Terry Harvey",
+            "name": "s00d",
             "email": "Virus191288@gmail.com"
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "5.1.*"
+        "php": ">=5.5.9",
+        "illuminate/support": "~5.0"
     },
     "autoload": {
-        "classmap": [
-            "src/migrations"
-        ],
         "psr-0": {
-            "s00d\\Permissions\\": "src/"
+            "s00d\\permissions": "src/"
         }
-    },
-    "minimum-stability": "stable"
+    }
 }
