@@ -1,4 +1,4 @@
-<?php namespace Mrterryh\Permissions;
+<?php namespace s00d\Permissions;
 
 class RolePermission extends \Eloquent
 {
@@ -7,7 +7,7 @@ class RolePermission extends \Eloquent
 
 	public function permission()
 	{
-		return $this->belongsTo('\Mrterryh\Permissions\Permission');
+		return $this->belongsTo('\s00d\Permissions\Permission');
 	}
 
 	public static function role($id)

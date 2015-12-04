@@ -1,10 +1,10 @@
-<?php namespace Mrterryh\Permissions;
+<?php namespace s00d\Permissions;
 
 trait Can
 {
 	public function role()
 	{
-		return $this->belongsTo('\Mrterryh\Permissions\Role', 'role_id');
+		return $this->belongsTo('\s00d\Permissions\Role', 'role_id');
 	}
 
 	public function can($permission)

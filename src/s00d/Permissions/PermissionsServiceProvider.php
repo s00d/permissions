@@ -1,4 +1,4 @@
-<?php namespace Mrterryh\Permissions;
+<?php namespace s00d\Permissions;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -18,7 +18,7 @@ class PermissionsServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('mrterryh/permissions');
+		$this->package('s00d/permissions');
 	}
 
 	/**
